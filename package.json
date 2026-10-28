@@ -43,11 +43,11 @@
     "typecheck": "bun check --noEmit",
     "lint": "bun lint",
     "test": "bun test",
-    "catalog:sync": "bun ../../scripts/aphrody-source/tools/web/x-catalog-sync.ts",
-    "coverage": "bun ../../scripts/aphrody-source/tools/web/x-coverage.ts"
+    "catalog:sync": "bun scripts/x-catalog-sync.ts",
+    "coverage": "bun scripts/x-coverage.ts"
   },
   "dependencies": {
-    "zod": "^4.6.5"
+    "zod": "^4.6.7"
   },
   "peerDependencies": {
     "@aphrody/bun": "3.3.8",

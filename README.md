@@ -344,7 +344,7 @@ Building blocks are exported separately: `captureArchive`, `collectTimeline`,
 ## Advanced / Internal
 
 - **Store & state**: SQLite with tweet/user/community edges, FTS5 search, digest, archive import.
-- **Catalog & recon**: Dynamic query IDs from X JS bundles (`bun scripts/tools/web/x-catalog-sync.ts`, native `catalog_sync`), surface recon, premium graph.
+- **Catalog & recon**: Dynamic query IDs from X JS bundles (`bun run catalog:sync`, native `catalog_sync`), surface recon, premium graph.
 - **X Pro / Radar**: Decks, columns, radar search (see `src/services/x-pro-deck.ts`, `src/config/radar-surface.ts` and `docs/web/x/X_PRO.md`).
 
 ## MCP
